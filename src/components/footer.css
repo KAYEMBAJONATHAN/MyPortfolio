@@ -12,11 +12,14 @@
 
 .social-media {
     color: #fff;
-    margin: 20px;
     font-size: 70px;
     cursor: pointer;
 }
 
 p {
     color: #fff;
+}
+
+.social-media > * {
+    margin-right: 20px;
 }
