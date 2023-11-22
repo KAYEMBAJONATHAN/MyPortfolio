@@ -1,18 +1,21 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import { projectList } from "../ProjectAssets/projectList";
-import { FaGithub } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
-const ProjectDisplay = () => {
-    const { id } = useParams();
-    const project = projectList[id]
-   return (
-      <div className="project">
-         <h1>{project.name}</h1>
-         <img src={project.image} alt="img" />
-         <FaGithub />
-      </div>
-   ) 
-}
+const ProjectDisplay = ({ image, name, id }) => {
+  const navigate = useNavigate();
+
+    const style = {
+        backgroundImage: `url(${image})`,
+    };
+
+    return (
+        <div className="projectItem" onClick={() => {
+            navigate('/project/' + id);
+        }}>
+            <div style={style} className="bgImage" />
+            <h1>{name}</h1>
+        </div>
+    );
+};
 
 export default ProjectDisplay;
