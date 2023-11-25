@@ -62,4 +62,10 @@
   .item {
     margin-bottom: 20px;
   }
+
+  .pic {
+    justify-content: flex-end;
+    width: 150px;
+    align-items: flex-end;
+  }
     

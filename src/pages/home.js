@@ -3,13 +3,15 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import '../pages/home.css';
-
+import pic from '../Assets/pic.png';
+ 
 const Home = () => {
     return(
         <div className="home">
           <div className="about">
              <h2>Hey, My name is Jonathan</h2>
                <div className="info">
+               <img src={pic} alt="img" className="pic"/>
                   <h3> "As a dedicated software developer, I am driven by a relentless
                      passion for continuous learning and a commitment to innovative creation." 
                   </h3>
