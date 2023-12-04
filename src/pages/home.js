@@ -7,45 +7,34 @@ import pic from '../Assets/pic.png';
  
 const Home = () => {
     return(
-        <div className="home">
-          <div className="about">
-             <h2>Hey, My name is Jonathan</h2>
-               <div className="info">
-               <img src={pic} alt="img" className="pic"/>
-                  <h3> "As a dedicated software developer, I am driven by a relentless
-                     passion for continuous learning and a commitment to innovative creation." 
-                  </h3>
-                <div className="media">
-                <FaLinkedin />
-                <FaGithub />
-                <MdEmail />
-                </div>  
+        <main>
+           <header  className="headeer">
+              <div className="header-social">
+                <a href="https://www.linkedin.com/in/cimena-kayemba/">
+                  <FaLinkedin />
+                </a>
+                <a href="https://github.com/KAYEMBAJONATHAN">
+                  <FaGithub />
+                </a>
+                <a href="http://www.kayembejonathan5@gmail.com">
+                  <MdEmail />
+                </a>
               </div>
-          </div>
-          <div className="skills">
-              <h1>Skills</h1>
-            <ol className="list">
-                <li className="item">
-                  <h2>Front-End</h2>
-                   <span>
-                    HTML, CSS, React.JS, Redux, Angular.
-                   </span>
-                </li>
-                <li className="item">
-                  <h2>Back-End</h2>
-                  <span>
-                    Node.js, Nest.js, .Net, MySQL, MongoDb, SQL, PostGres.
-                  </span>
-                </li>
-                <li className="item">
-                  <h2>Langueges</h2>
-                  <span>
-                    Javascript, C#, Ruby, Ruby On Rails
-                  </span>
-                </li>
-            </ol>
-          </div>
-        </div>
+           </header>
+          <section id="intro">
+            <div>
+              <h3>I'm Jonathan Kayemba <br/> 
+               Full-stuck Developer<br/> 
+              "As a dedicated software developer, <br/>I am driven by a relentless
+              <br/> passion for continuous learning and <br/>a commitment to innovative creation."
+              </h3>
+              <a href="/contact">Contact Me</a>
+            </div>
+            <div>
+            <img src={pic} alt="pic" />
+            </div>
+          </section>
+        </main>
     )
 }
 

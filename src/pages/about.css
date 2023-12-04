@@ -1,0 +1,29 @@
+section#About {
+    background-color: #31333b;
+    box-shadow: inset 0 10px 10px rgba();
+    margin-top: 100px;
+}
+
+.center {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'SourceSerif Pro', serif;
+}
+
+section#About p::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #31333b;
+    margin-left: -50px;
+    position: relative;
+    top: 10px;
+}
+
+section#About h2 {
+    color: #f5f5b5;
+}

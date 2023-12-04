@@ -1,71 +1,76 @@
-.home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    width: 100%;
-    font-family: "Arial", sans-serif;
-    color: #3e497a;
-    background-color: #f0f0f0;
-  }
-  
-  .about {
-    width: 100%;
-    height: calc(100vh - 100px);
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #21325e;
-    color: #f0f0f0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .about h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 70px;
-    color: #e9d35b;
-    height: 50px;
-  }
-  
-  .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
+body {
+background-color: #34353a;
+font-family: 'Roboto', sans-serif;
+}
 
-  h3 {
-    font-size: 10px;
-  }
+.headeer {
+  display: flex;
+  max-width: 780px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
 
-  .media {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .skills {
-    margin-top: 30px;
-  }
-  
-  .list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .item {
-    margin-bottom: 20px;
-  }
+.header-nav nav {
+  flex-grow: 1;
+  text-align: center;
+}
 
-  .pic {
-    justify-content: flex-end;
-    width: 150px;
-    align-items: flex-end;
-  }
-    
+.header-nav a {
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: white;
+  
+}
+
+.header-social a{
+  display: inline-block;
+}
+
+.header-social {
+  height: 40px;
+  fill: rgba(255, 255, 255, .6);
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#intro {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: #fac86b;
+  font-size: 1rem;
+  justify-content: space-between;
+  line-height: 2.6rem;
+  text-align: center;
+}
+
+#intro a {
+  border: 2px solid #fac86b;
+  border-radius: 7px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+#intro img {
+  color: gold;
+}
+
+#intro img {
+  max-width: 300px;
+  border-radius: 100%;
+}
