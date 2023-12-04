@@ -33,3 +33,12 @@ section#contact {
     fill: #fff;
     margin-right: 10px;
 }
+
+.back {
+    border: 2px solid #fac86b;
+    border-radius: 7px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}

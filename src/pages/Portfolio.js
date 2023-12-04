@@ -10,9 +10,9 @@ const Portfolio = () => {
           <div className="center">
             <h2>Portfolio</h2>
             <div className="folio-container">
-              <a className="image" href="#"><img src={project1} alt="countrymap" /></a>
-              <a className="image" href="#"><img src={calulator} alt="travelhub" /></a>
-              <a className="image" href="#"><img src={Menufood} alt="foodmenu" /></a>
+              <a className="image" href="https://github.com/KAYEMBAJONATHAN/React-t"><img src={project1} alt="countrymap" /></a>
+              <a className="image" href="https://github.com/mohamedSabry0/space_travelers_hub"><img src={calulator} alt="travelhub" /></a>
+              <a className="image" href="https://github.com/Elhambasir/Food-Menu"><img src={Menufood} alt="foodmenu" /></a>
             </div>
           </div>    
         </section>

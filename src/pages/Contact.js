@@ -31,6 +31,9 @@ const Contact = () => {
                 <FaLocationDot />
                </a>
              </div>
+             <div>
+             <a href="/" className="back">Back to home page</a>
+             </div>
           </div>   
         </section>
     );

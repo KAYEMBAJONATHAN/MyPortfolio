@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/cimena-kayemba/">
              <FaLinkedin />
           </a>
-          <a href="">
+          <a href="https://twitter.com/JonathanKa97287">
           <FaTwitter />
           </a>
           <a href="https://wellfound.com/u/cimena-kayemba-jonathan">
