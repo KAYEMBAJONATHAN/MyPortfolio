@@ -22,7 +22,7 @@ const Experience = () => {
             </VerticalTimelineElement>
 
             <VerticalTimelineElement className="vertical-timeline-element--education"
-               date="2022 - 2023"
+               date="2019 - 2022"
                iconStyle={{background: "#3e497a", color: "#fff"}}
              >
               <div className="icon"><MdSchool /></div>
@@ -34,7 +34,7 @@ const Experience = () => {
             </VerticalTimelineElement>
 
             <VerticalTimelineElement className="vertical-timeline-element--work"
-               date="2022 - 2023"
+               date="2019 - 2022"
                iconStyle={{background: "#e9d35d", color: "#fff"}}
              >
               <div className="icon"><IoMdCodeWorking /></div>
@@ -46,7 +46,7 @@ const Experience = () => {
             </VerticalTimelineElement>
 
             <VerticalTimelineElement className="vertical-timeline-element--education"
-               date="2022 - 2023"
+               date="2021 - 2023"
                iconStyle={{background: "#e9d35d", color: "#008000"}}
              >
               <div className="icon"><IoMdCodeWorking /></div>
