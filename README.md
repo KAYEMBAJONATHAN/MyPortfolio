@@ -55,7 +55,9 @@
 
 ## 🚀 Live Demo <a href="https://capstone-slmm.onrender.com/">Live Link</a>
 
-## Live Recording demo <a href="https://drive.google.com/file/d/1-EGud0n5Dz4tW0CqRXy3xiwkJqNv5vR-/view">Recording demo</a>
+## Live deployement demo <a href="https://rococo-hamster-9387e3.netlify.app/">Recording demo</a>
+
+## deploy https://rococo-hamster-9387e3.netlify.app/
 
 <!-- GETTING STARTED -->
 
