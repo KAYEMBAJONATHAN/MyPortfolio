@@ -49,9 +49,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[React, Redux, Css]**
+- **[React, Css]**
 - **[Styling css with colors, borders, paddings, margins & sizes, etc]**
-  \_ **[React, Redux & javascript functions, modules, ES6 syntax, variables, React testing, etc]**
+  \_ **[React, & javascript functions, modules, ES6 syntax, variables, React testing, etc]**
 
 ## 🚀 Live Demo <a href="https://capstone-slmm.onrender.com/">Live Link</a>
 
