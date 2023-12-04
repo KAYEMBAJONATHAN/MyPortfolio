@@ -1,51 +1,44 @@
-section#portfolio {
+#portfolio {
     background-color: #31333b;
     padding: 50px 0;
 }
 
-section#portfolio h2 {
+#portfolio h2 {
     text-align: center;
-}
-
-.folio-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;  
+    color: #fff; /* Add text color */
 }
 
 .folio-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    a {
-      display: block;
-      opacity: 0;
-      position: relative;
-      left: 50px;
-      transition: all .3s ease-in-out;  
-    }
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
- section#portfolio.visible a {
-    opacity: 1;
-    left: 0;
+.folio-container a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease-in-out;
 }
 
 .folio-container img {
-    width: 200%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .folio-container a:hover {
     transform: scale(1.1);
 }
 
-section#portfolio.visible .folio-container a {
+#portfolio.visible .folio-container a {
     opacity: 1;
     transform: scale(1);
 }
 
 .image {
-    width: 50px;
+    width: 100%;
+    max-width: 100%;
 }
