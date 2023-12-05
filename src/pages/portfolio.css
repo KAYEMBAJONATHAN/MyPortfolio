@@ -1,0 +1,44 @@
+#portfolio {
+    background-color: #31333b;
+    padding: 50px 0;
+}
+
+#portfolio h2 {
+    text-align: center;
+    color: #fff; /* Add text color */
+}
+
+.folio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.folio-container a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+.folio-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.folio-container a:hover {
+    transform: scale(1.1);
+}
+
+#portfolio.visible .folio-container a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.image {
+    width: 100%;
+    max-width: 100%;
+}
