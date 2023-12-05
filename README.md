@@ -102,23 +102,6 @@ To run the project, execute the following command:
 
 _Run the project on Visual Studio Code Live Server._
 
-<!--
-Example command:
-
-```sh
-  rails server
-### Deployment
-
-You can deploy this project using:
-Not Yet
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 # <a name="authors">Ndonyi Maurice</a>
 
 👤 **JONATHAN KAYEMBA**
