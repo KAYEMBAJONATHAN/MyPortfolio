@@ -5,6 +5,7 @@ import calulator from '../Assets/calulator.png';
 import Menufood from '../Assets/Menufood.png';
 import books from '../Assets/books.png';
 import pfolio from '../Assets/pfolio.png';
+import aboutme from '../Assets/aboutme.png';
 
 const Portfolio = () => {
     return(
@@ -17,6 +18,7 @@ const Portfolio = () => {
               <a className="image" href="https://github.com/Elhambasir/Food-Menu"><img src={Menufood} alt="foodmenu" /></a>
               <a className="image" href="https://github.com/HenaryKhuraijam/bookList"><img src={books} alt="foodmenu" /></a>
               <a className="image" href="https://kayembajonathan.github.io/Desk/"><img src={pfolio} alt="foodmenu" /></a>
+              <a className="image" href="https://github.com/KAYEMBAJONATHAN/MyPortfolio"><img src={aboutme} alt="foodmenu" /></a>
             </div>
           </div>    
         </section>
